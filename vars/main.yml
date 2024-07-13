@@ -1,0 +1,23 @@
+---
+php_packages:
+  - php
+  - php-cli
+  - php-devel
+  - php-gd
+  - php-mbstring
+  - php-mysqlnd
+  - php-opcache
+  - php-pear
+  - php-pecl-apcu
+  - php-pecl-zip
+  - php-ldap
+
+php_conf_paths:
+  - /etc
+
+php_extension_conf_paths:
+  - /etc/php.d
+
+php_apc_conf_filename: 50-apc.ini
+php_opcache_conf_filename: 10-opcache.ini
+php_bitrixenv_conf_filename: bitrixenv.ini

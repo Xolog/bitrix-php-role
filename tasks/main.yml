@@ -1,0 +1,7 @@
+---
+# php | Setup/install tasks.
+- ansible.builtin.include_tasks: install-php.yml
+
+# php | Configure PHP.
+- ansible.builtin.include_tasks: configure-php.yml
+
